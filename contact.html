@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Vang's Portfolio">
+        <meta name="keyword" content="portfolio, javascript, html, css, developer">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pao Vang | Contact</title>
+        <link ref="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <h1>Contact</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="portfoilo.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Contact Me</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="name" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email_address" required>
+                    </div>
+                    <div>
+                        <label for="phoneNumber">Phone:</label>
+                        <input type="tel" id="phoneNumber" name="phone_number" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="20" rows="5"></textarea>
+                    </div>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </div>
+</html>
